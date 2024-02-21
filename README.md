@@ -20,4 +20,4 @@ to run a different test script, modify the `docker-compose.yml`(the last line is
 
 ### WIP
 I'm working on increasing the coverage.
-any questions or concerns, contact @maugap-datumsure.
+any questions or concerns, contact @maugap.
