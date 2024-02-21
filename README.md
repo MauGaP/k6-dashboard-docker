@@ -1,5 +1,13 @@
 # Powerme Performance scripts
 
+A simple performance suite that runs on docker and uses the k6-dashboard extension to create reports live
+![k6 dashboard overview dark](/k6-dashboard-overview-dark.png#gh-dark-mode-only)
+
+## Prerequisites
+
+docker installed
+docker daemon running
+
 ## Installation
 
 `docker build -t powerme-dashboard .`
@@ -17,7 +25,7 @@ to modify the execution options (aka how many virtual users to use) modify the `
 
 to run a different test script, modify the `docker-compose.yml`(the last line is the test script `- TEST_SCRIPT=login.js`)
 
-
 ### WIP
+
 I'm working on increasing the coverage.
 any questions or concerns, contact @maugap.
