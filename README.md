@@ -1,4 +1,4 @@
-# Docker Dashboard Performance
+# K6 Dashboard Docker
 
 A simple performance suite that runs on docker and uses the k6-dashboard extension to create reports live
 ![k6 dashboard overview dark](/k6-dashboard-overview-dark.png#gh-dark-mode-only)
