@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  powerme-dashboard:
-    image: powerme-dashboard
+  prf-dashboard:
+    image: prf-dashboard
     ports:
       - "5665:5665"
     volumes:
-      - .:/workspace:ro
+      - .:/workdir:rw
     environment:
       - TEST_SCRIPT=login.js
